@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+   background-image: url(/tulips.jpeg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+header{
+    background: rgb(32, 187, 226);font-family: calibri;padding-right: 15px;padding-left: 15px;
+}
+/* Style for navigation links */
+link{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a{
+    color: rgb(111, 15, 221);font-size: 18px;font-weight: bold;
+}
+button{
+    background-color: black;margin-left: 10px;border-radius: 15px;padding: 10px;width: 90px;
+
+}
+button {
+    color: rgb(180, 50, 50);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer; 
+}
+img{
+    text-align: left;
+    padding: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+
+}
+header{
+    text-align:center;
+}
+.profile{
+    text-align: left;
+}
+ul{
+    display: flex;
+    float: right;
+    gap: 45px;
+}
+li{
+    background: rgb(129, 145, 114);
+    border-radius: 5px;
+
+}
+li:hover{
+    background: lawngreen;
+    transition:  .2s ease-in;
+}
+li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fff;
+    padding: 14px 12px;
+}
+:hover{
+    opacity: var(10px);
+    color: #bb1e1e;
+    
+}
+.menu{
+    background: rgb(155, 100, 100);
+    height: 150px;
+    width: auto;
+}
+.div{
+    background: rgb(206, 163, 83);
+    height: 100px;
+    position: relative;
+    float: right;
+}
+#logo{
+    height: 150px;
+    width: 150px;
+    background: #0000ff;
+    position: absolute;
+}
+.article{
+    height: 340px;
+}
+.footer{
+    background: rgb(155, 155, 184);
+    height: 100px;
+    width: auto;
+}
